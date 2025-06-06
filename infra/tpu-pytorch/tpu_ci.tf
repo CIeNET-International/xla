@@ -7,7 +7,7 @@ module "v4_arc_cluster" {
   tpu_nodepool_name = "tpu-nodepool"
   min_tpu_nodes     = 32
   max_tpu_nodes     = 32
-  github_repo_url   = "https://github.com/pytorch/xla"
+  github_repo_url   = "https://github.com/CIeNET-International/xla"
   # Dockerfile for this image can be found at test/tpu/Dockerfile
   runner_image      = "gcr.io/tpu-pytorch/tpu-ci-runner:latest"
 }
